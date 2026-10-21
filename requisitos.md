@@ -1,6 +1,6 @@
-# Cine Pálacio
+# Calculando a sorte
 ## Objetivos
-
+Os objetivos são criar uma plataforma de jogo usando calculadora e jogos matematicos, usando as equações basicas (adição, subtração, divisão, multiplicação)
 
 ### Stack Tecnlógico
 - Backend: PHP estruturado com sessões nativas
@@ -11,7 +11,7 @@
 Tratar senhas de usuários com hash bcrypt
 O sistema deve ter uma página de históricos e manter sempre os logs de qualquer alteração feita por 
 qualquer usuário, para auditorias futuras.
-
+a calculadora vai ter sempre uma operação sorteada para o usuário poder usar, então sempre vai poder usar o números como uma calculadora normal e as operações serão aleatórias, mas o usuário pode desbloquear outras operações mediante a assistir anuncio ou pagar o premium.
 
 ##### Regras Globais
 - Use sempre PDO para conexão e queries no MySQL para evitar SQL Injections
